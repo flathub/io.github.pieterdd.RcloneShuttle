@@ -45,5 +45,5 @@ modules:
     sources:
     - type: git
       url: https://github.com/pieterdd/RcloneShuttle
-      tag: 0.1.2
+      tag: 0.1.2-1
     - "cargo-sources.json"
