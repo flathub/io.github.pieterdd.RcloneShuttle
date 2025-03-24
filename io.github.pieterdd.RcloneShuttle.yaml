@@ -1,6 +1,6 @@
 id: io.github.pieterdd.RcloneShuttle
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: '48'
 sdk: org.gnome.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.rust-stable
@@ -25,8 +25,8 @@ modules:
     - install -Dm755 -t /app/bin/ rclone
     sources:
     - type: archive
-      url: https://github.com/rclone/rclone/archive/refs/tags/v1.66.0.zip
-      sha256: 8cdd75b412950107f33555c0dccb454138a3f9ce854f9f431cd9c7fcb861b818
+      url: https://github.com/rclone/rclone/archive/refs/tags/v1.69.1.zip
+      sha256: 17ab9031978a9f709c57ac8893b4f45479e2dd074681670ab9e361a2b6b061c7
     - "go-sources.yml"
   - name: rclone-shuttle
     buildsystem: simple
@@ -45,5 +45,5 @@ modules:
     sources:
     - type: git
       url: https://github.com/pieterdd/RcloneShuttle
-      tag: 0.1.4
+      tag: 0.1.5
     - "cargo-sources.json"
