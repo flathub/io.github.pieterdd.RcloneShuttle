@@ -25,8 +25,8 @@ modules:
       - install -Dm755 -t /app/bin/ rclone
     sources:
       - type: archive
-        url: https://github.com/rclone/rclone/archive/refs/tags/v1.69.1.zip
-        sha256: 17ab9031978a9f709c57ac8893b4f45479e2dd074681670ab9e361a2b6b061c7
+        url: https://github.com/rclone/rclone/archive/refs/tags/v1.72.1.zip
+        sha256: e67a2a168f02608b9035a9b17e9de6ef14fa04fad62debd1c98dbfe1654336d5
       - "go-sources.yml"
   - name: rclone-shuttle
     buildsystem: simple
@@ -45,5 +45,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/pieterdd/RcloneShuttle
-        tag: 0.1.6-1
+        tag: 0.1.7
       - "cargo-sources.json"
