@@ -20,6 +20,8 @@ modules:
     buildsystem: simple
     build-options:
       append-path: "/usr/lib/sdk/golang/bin"
+      env:
+        GOEXPERIMENT: "nodwarf5"
     build-commands:
       - go build -mod=vendor -ldflags='-extldflags=-fuse-ld=bfd' .
       - install -Dm755 -t /app/bin/ rclone
