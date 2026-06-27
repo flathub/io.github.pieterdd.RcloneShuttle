@@ -82,6 +82,15 @@
   </description>
 
   <releases>
+    <release version="0.1.10" date="2026-06-27">
+        <description>
+        <ul>
+            <li>Update to GNOME 50 runtime</li>
+            <li>Fix issue on about screen</li>
+            <li>Build with new Go version so the aarch64 build workaround can be removed</li>
+        </ul>
+        </description>
+    </release>
     <release version="0.1.9" date="2026-02-27">
         <description>
         <ul>

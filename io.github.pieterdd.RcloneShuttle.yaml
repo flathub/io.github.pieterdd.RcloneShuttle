@@ -45,8 +45,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/pieterdd/RcloneShuttle
-        tag: 0.1.9
-        commit: e4cf9a3f4991d6cc66a8304da958330e570b3dda
+        tag: 0.1.10
+        commit: 5d02fa0e4e27201e70cea223582c5178a4e1370c
       - type: file
         path: io.github.pieterdd.RcloneShuttle.metainfo.xml
       - "cargo-sources.json"
